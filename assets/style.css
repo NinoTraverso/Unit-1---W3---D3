@@ -10,7 +10,11 @@
 
 form label {
   display: inline-block;
-  width: 120px;
+  width: 50px;
+}
+
+form button {
+  border: 130px;
 }
 
 #toDoListContainer {

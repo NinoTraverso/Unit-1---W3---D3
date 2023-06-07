@@ -9,13 +9,15 @@ form.addEventListener("ADD_TASK", function (add) {
 
   const nameOfTask = document.getElementById("task");
 
-  /* ORA PRENDIAMO LE VALUE DI CIASCUNO E LI METTIAMO IN UN OBJECT DA USARE SUCESSIVAMENTE */
+  /* ORA PRENDIAMO LE VALUE DEL TASK E LI METTIAMO IN UN OBJECT DA USARE SUCESSIVAMENTE */
 
   const newTask = nameOfTask.value;
 
   const addedTask = {
     addedTask: newTask,
   };
+
+  console.log(addedTask);
 
   /* ADESSO FACCIAMO IN MODO CHE IL TASK INSERITO VENGA MOSTRATO */
 
@@ -28,7 +30,7 @@ form.addEventListener("ADD_TASK", function (add) {
   addTask.classList.add("ListOfTasks");
 
   addTask.innerHTML = `
-  <input type="checkbox"><p> ${addedTask}</p> />
+  <input type="checkbox" /><p> ${addedTask}</p>
 
   `;
 });
