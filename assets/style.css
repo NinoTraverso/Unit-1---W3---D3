@@ -1,0 +1,30 @@
+#body {
+  background-image: url(/assets/To\ do\ list\ image.jpg);
+}
+
+#pageTitle {
+  color: brown;
+  text-align: center;
+  font-size: 2em;
+}
+
+form label {
+  display: inline-block;
+  width: 120px;
+}
+
+#toDoListContainer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+  border: 3px solid rgb(13, 175, 70);
+  max-width: 50%;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+#toDoListForm {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
